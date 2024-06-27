@@ -6,11 +6,17 @@ The code you provided is a set of SQL statements that create and manage a table 
 This statement defines the blueprint for your customers table. It specifies:
 
 Columns: These are the fields that will store information about each customer.
+
 Customer_id: A unique identifier for each customer (integer). It's marked as PRIMARY KEY, meaning no two customers can have the same ID, and it cannot be empty.
+
 First_name: Customer's first name (text with a maximum of 20 characters). It allows empty values (null).
+
 Last_name: Customer's last name (text with a maximum of 20 characters). It allows empty values (null).
+
 Mobile_no: Customer's mobile number (large integer). It allows empty values (null).
+
 Address: Customer's address (text with a maximum of 50 characters). It allows empty values (null).
+
 2. Inserting Data (INSERT INTO):
 
 These statements add two sample customer entries to the customers table. Each INSERT statement specifies:
