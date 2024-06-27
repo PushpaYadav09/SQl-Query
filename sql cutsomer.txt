@@ -4,17 +4,9 @@ First_name varchar(20),
 Last_name varchar(20),
 Mobile_no bigint,
 Address varchar(50)
-)
+);
  INSERT INTO customer.customers(Customer_id,First_name,Last_name,Mobile_no,Address)
 VALUES(101,'John','Doe',86920,'USA');
 INSERT INTO customer.customers(Customer_id,First_name,Last_name,Mobile_no,Address)
  VALUES(102,'Brad','Paris',843747,'UK');
  SELECT * FROM customer;
-use customer1;
-CREATE TABLE customer1(
-Customer_id int PRIMARY KEY,
-First_name varchar(20),
-Last_name varchar(20),
-Mobile_no int,
-Address varchar(50)
-)
